@@ -6,7 +6,7 @@
 {
 	
 	var timeId=setInterval(function(){
-        //获取URL下传递的资源
+        //获取URL下传递的资源,"$serverData"可以是SDK约定好的名称
 		var sdtata=window["$serverData"]
 		if(sdtata && sdtata.cdnUrl)
 		{
